@@ -5,10 +5,27 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <title>404 Page Not Found</title>
   </head>
-  <body>
-    <div class="error">404</div>
-    <br /><br />
-    <span class="info">File not found</span>
-    <img src="http://images2.layoutsparks.com/1/160030/too-much-tv-static.gif" class="static" />
+
+  <body translate="no">
+    <header>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#">My Grid</a></li>
+            <li><a href="#">Network</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <h1 id="title">Error 404</h1>
+    <h3 id="subtitle"> Come back to <a href="#">us</a>.</h3>
+    <div id="container">
+      <canvas id="canvas" width="1080" height="734"></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
